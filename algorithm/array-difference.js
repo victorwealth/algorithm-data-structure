@@ -72,4 +72,14 @@ diffArray([1, 2, 3, 5], [1, 2, 3, 4, 5]);
 
 //SOLUTION 2
 function diffArray(arr1, arr2){
+  let newArr = [...difference(arr1, arr2), ...difference(arr2, arr1)];
+  
+  
+  function difference(a, b){
+    return a.filter(item => b.indexOf(item) === -1) // return array of items in a that is not in b
+    // a = [1, 2, 3] and b [1, 2, 3, 4]. Using a.filter... above will return empty array [] bcos 1, 2, 3 exist in b [1, 2, 3, 4]
+    // b = [1, 2, 3, 4]. using b.filter... with "a [1, 2, 3]" will return [4] because "4" does not exist in [1, 2, 3]
+    // join both results together (Line 75) using spread operator to get the difference.
+  }
+  return newArr;
 }
