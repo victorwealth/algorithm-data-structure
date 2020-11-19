@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharp", "CSharp\CSharp.csp
 EndProject
 Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Python", "Python\Python.pyproj", "{6C0B9067-01C6-4FA5-A3B8-9145710AC467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpTests", "CSharpTests\CSharpTests.csproj", "{711C20DA-2BB3-4A97-81A8-2994D8DE6D60}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{0AD9EF68-E6A8-49F1-8185-F15D5E26659A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6C0B9067-01C6-4FA5-A3B8-9145710AC467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6C0B9067-01C6-4FA5-A3B8-9145710AC467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711C20DA-2BB3-4A97-81A8-2994D8DE6D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{711C20DA-2BB3-4A97-81A8-2994D8DE6D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{711C20DA-2BB3-4A97-81A8-2994D8DE6D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{711C20DA-2BB3-4A97-81A8-2994D8DE6D60}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
