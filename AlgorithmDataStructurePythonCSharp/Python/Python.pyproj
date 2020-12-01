@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>6c0b9067-01c6-4fa5-a3b8-9145710ac467</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Algorithms\selection_sort.py</StartupFile>
+    <StartupFile>Algorithms\recursion.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,6 +26,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algorithms\binary_search.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Algorithms\recursion.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Algorithms\selection_sort.py">
